@@ -1,0 +1,26 @@
+{
+  "name": "caninos-defenza",
+  "version": "1.0.0",
+  "description": "Landing page para venda do produto Defenza - Caninos",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'Build completed'",
+    "start": "npx serve .",
+    "dev": "npx serve . -l 3000"
+  },
+  "keywords": [
+    "defenza",
+    "antiparasitario",
+    "petshop",
+    "agropecuaria",
+    "landing-page"
+  ],
+  "author": "Caninos",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
