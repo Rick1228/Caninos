@@ -6,9 +6,122 @@
     <title>Defenza - Proteção Completa Contra Pulgas e Carrapatos | Caninos</title>
     <meta name="description" content="Defenza oferece proteção eficaz por até 37 dias contra pulgas, carrapatos e ácaros. Comprimido mastigável com sabor agradável. Compre na Caninos!">
     <meta name="keywords" content="defenza, pulgas, carrapatos, ácaros, proteção canina, antiparasitário, fluralaner, MSD">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" onerror="this.onerror=null;this.href='data:text/css;base64,'+btoa(document.getElementById('fallback-css').textContent)">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style id="fallback-css">
+        /* Fallback CSS - será usado se styles.css não carregar */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --primary-orange: #FF6600;
+            --primary-blue: #00ABEF;
+            --whatsapp-green: #25D366;
+            --dark-blue: #1a365d;
+            --light-gray: #f7fafc;
+            --medium-gray: #718096;
+            --dark-gray: #2d3748;
+            --white: #ffffff;
+            --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            --shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.15);
+            --border-radius: 12px;
+            --transition: all 0.3s ease;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: var(--dark-gray);
+            background-color: var(--white);
+            overflow-x: hidden;
+        }
+        .navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            z-index: 1000;
+            padding: 1rem 0;
+            box-shadow: var(--shadow);
+        }
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo-container {
+            display: flex;
+            align-items: center;
+            font-size: 1.8rem;
+            font-weight: 800;
+            font-family: 'Inter', sans-serif;
+        }
+        .logo-text-blue { color: #00ABEF; font-weight: 800; }
+        .logo-text-orange { color: var(--primary-orange); font-weight: 800; }
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            position: relative;
+            background: linear-gradient(135deg, var(--light-gray) 0%, var(--white) 100%);
+            overflow: hidden;
+            padding-top: 100px;
+        }
+        .hero-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem 20px 0;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+            position: relative;
+            z-index: 2;
+        }
+        .hero-title {
+            font-size: 3.5rem;
+            font-weight: 800;
+            line-height: 1.1;
+            margin-bottom: 1.5rem;
+            color: var(--dark-gray);
+        }
+        .title-highlight { color: var(--primary-orange); }
+        .title-sub { color: var(--primary-blue); font-size: 2.5rem; }
+        .btn-primary {
+            background: var(--primary-orange);
+            color: var(--white);
+            border: none;
+            padding: 16px 32px;
+            border-radius: var(--border-radius);
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            position: relative;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+        }
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-lg);
+            background: #e55a00;
+        }
+        @media (max-width: 768px) {
+            .hero-container {
+                grid-template-columns: 1fr;
+                gap: 3rem;
+                text-align: center;
+                padding: 3rem 20px 0;
+            }
+            .hero-title { font-size: 2.5rem; }
+            .title-sub { font-size: 2rem; }
+        }
+    </style>
 </head>
 <body>
     <!-- Navigation -->
